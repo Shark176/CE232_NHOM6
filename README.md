@@ -1,35 +1,27 @@
 | Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
 | ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
 
-# _Sample project_
+# _Blink LED project_
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+This is the simplest source code for LED blinking in ESP32-IDF.
+## Video demo
+[LED Blinking Video](https://youtu.be/RZQ1W_6OMJg)
 
-This is the simplest buildable example. The example is used by command `idf.py create-project`
-that copies the project to user specified path and set it's name. For more information follow the [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project)
+## Requirements
+1. Installed [ESP32-IDF](https://dl.espressif.com/dl/esp-idf/).
+2. ESP32 KIT.
 
+## Installation and Local Setup
+Installation and Local Setup
 
+1. Clone the repository from GitHub:
+   ```bash
+    git clone https://github.com/Shark176/CE232_NHOM6
 
-## How to use example
-We encourage the users to use the example as a template for the new projects.
-A recommended way is to follow the instructions on a [docs page](https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html#start-a-new-project).
+## How to use project
+1. Change the target chip based on the ESP32 KIT you have.
+2. Modify the "LED_PIN" constant to the GPIO connected to the LED.
+3. Choose the port.
+4. Build project.
+5. Flash code to the KIT.
 
-## Example folder contents
-
-The project **sample_project** contains one source file in C language [main.c](main/main.c). The file is located in folder [main](main).
-
-ESP-IDF projects are built using CMake. The project build configuration is contained in `CMakeLists.txt`
-files that provide set of directives and instructions describing the project's source files and targets
-(executable, library, or both). 
-
-Below is short explanation of remaining files in the project folder.
-
-```
-├── CMakeLists.txt
-├── main
-│   ├── CMakeLists.txt
-│   └── main.c
-└── README.md                  This is the file you are currently reading
-```
-Additionally, the sample project contains Makefile and component.mk files, used for the legacy Make based build system. 
-They are not used or needed when building with CMake and idf.py.
