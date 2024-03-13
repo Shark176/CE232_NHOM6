@@ -16,7 +16,6 @@ while(true)
 {
    ON = !ON;
    ESP_LOGI(TAG, "Turning the LED %s!", ON == true ? "ON" : "OFF");
-//    ESP_LOGI(TAG, "Example configured to blink GPIO LED!");
    gpio_set_level(LED_PIN, ON);
    vTaskDelay(500/ portTICK_PERIOD_MS);
 }

@@ -1,4 +1,4 @@
-/* * Data converted from E:/ThayLoc/sample_project/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from E:/ThayLoc/CE232_NHOM6/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

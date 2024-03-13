@@ -1,4 +1,4 @@
-# Install script for directory: E:/ThayLoc/sample_project/main
+# Install script for directory: E:/ThayLoc/CE232_NHOM6/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
